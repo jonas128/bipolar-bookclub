@@ -13,7 +13,7 @@ let img = document.querySelector('img');
 let btn1 = document.querySelector('#btn1');
 let btn2 = document.querySelector('#btn2');
 
-const colors = ['pink', 'red', 'green', 'blue', 'tomato', 'white'];
+const colors = ['pink', 'red', 'green', 'blue', 'white', 'yellow'];
 document.body.style.backgroundColor = 'pink';
 const button = document.querySelector('button');
 
