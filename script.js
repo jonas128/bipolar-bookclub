@@ -1,3 +1,5 @@
+// BOOK DATA
+
 const books = [
   { name: 'This book is 29% bipolar', image: 'images/1.jpeg' },
   { name: '2', image: 'images/2.jpeg' },
@@ -8,17 +10,23 @@ const books = [
   { name: 'Non-bipolar data book', image: 'images/7.jpeg' },
 ];
 
-let img = document.querySelector('img');
-
-let btn1 = document.querySelector('#btn1');
-let btn2 = document.querySelector('#btn2');
+// COLOR DATA
 
 const colors = ['pink', 'red', 'green', 'blue', 'white', 'yellow'];
 document.body.style.backgroundColor = 'pink';
 const button = document.querySelector('button');
 
+// RESET
+
+let img = document.querySelector('img');
+
+let btn1 = document.querySelector('#btn1');
+let btn2 = document.querySelector('#btn2');
+
 let colorIndex = 1;
 let bookIndex = 0;
+
+// BUTTONS
 
 btn1.addEventListener('click', () => {
   let header = document.querySelector('h1');
@@ -29,7 +37,6 @@ btn1.addEventListener('click', () => {
 
   if (bookIndex == 6) {
     bookIndex = -1;
-    // colorIndex = 0;
   }
 
   bookIndex++;
@@ -43,25 +50,28 @@ btn1.addEventListener('click', () => {
 });
 
 btn2.addEventListener('click', () => {
-  // for (let i = 0; i < 7; i++) {
-  //   setTimeout(loop, 500);
-  //   img.src = books[i].image;
-  // }
-  // img.src = books[1].image;
-  // setTimeout(loop, 500);
-  // img.src = books[2].image;
-
   if (bookIndex == -1) {
     bookIndex = 6;
     // colorIndex = 0;
   }
 
-  setTimeout(loop, 1000);
+  setTimeout(loop, 2000);
   img.src = 'images/book.ico';
 
   let header = document.querySelector('h1');
   header.innerText = books[bookIndex].name;
 });
+
+// SCROLL
+
+const signs = ['bipolar', '-', 'bookclub '];
+const javaSign = document.querySelector('p1');
+
+window.addEventListener('scroll', function () {
+  signs.forEach((sign) => (javaSign.textContent += sign));
+});
+
+//FUNCTIONS
 
 function mouseOver() {
   document.getElementById('mouse').style.color = 'red';
