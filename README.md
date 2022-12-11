@@ -1,12 +1,14 @@
-INSERT MANDATORY GIF
+<img src="https://media.giphy.com/media/atcqQ5PuX41J6/giphy.gif" />
 
 # Project Title
 
-Text about the project. This would also be a great place to link the game on Netlify.
+A book project built with JavaScript: enjoy at https://bipolar-bookclub.netlify.app
 
 # Installation
 
-Add the installation instructions.
+1. Clone the repository to your computer.
+2. Start a local server in the command line.
+3. Open the index.html file in your browser.
 
 # Code Review
 
