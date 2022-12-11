@@ -1,6 +1,6 @@
 <img src="https://media.giphy.com/media/atcqQ5PuX41J6/giphy.gif" />
 
-# Project Title
+# Bipolar Bookclub
 
 A book project built with JavaScript: enjoy at https://bipolar-bookclub.netlify.app
 
