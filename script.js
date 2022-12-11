@@ -1,19 +1,22 @@
 // BOOK DATA
 
 const books = [
-  { name: 'This book is 29% bipolar', image: 'images/1.jpeg' },
-  { name: '2', image: 'images/2.jpeg' },
-  { name: '3', image: 'images/3.jpeg' },
-  { name: '4', image: 'images/4.jpeg' },
-  { name: 'This is not a book', image: 'images/5.jpeg' },
-  { name: '6', image: 'images/6.jpeg' },
-  { name: 'Non-bipolar data book', image: 'images/7.jpeg' },
+  { name: 'This book is 22% bipolar', image: 'images/1.jpeg' },
+  {
+    name: 'Chess is logic but this book is 29% bipolar',
+    image: 'images/2.jpeg',
+  },
+  { name: 'This is a medium bipolar book', image: 'images/3.jpeg' },
+  { name: 'This is a medium bipolar book', image: 'images/4.jpeg' },
+  { name: 'This is non-bipolar gamebook', image: 'images/5.jpeg' },
+  { name: 'Non-bipolar data book', image: 'images/6.jpeg' },
+  { name: 'Upper quantile bipolar book', image: 'images/7.jpeg' },
 ];
 
 // COLOR DATA
 
-const colors = ['pink', 'red', 'green', 'blue', 'white', 'yellow'];
-document.body.style.backgroundColor = 'pink';
+const colors = ['blue', 'pink', 'red', 'yellow', 'green', 'grey'];
+document.body.style.backgroundColor = 'blue';
 const button = document.querySelector('button');
 
 // RESET
@@ -45,7 +48,7 @@ btn1.addEventListener('click', () => {
   if (bookIndex >= colors.length) {
     colorIndex = 0;
     bookIndex = -1;
-    document.body.style.backgroundColor = 'grey';
+    document.body.style.backgroundColor = 'white';
   }
 });
 
@@ -78,7 +81,7 @@ function mouseOver() {
 }
 
 function mouseOut() {
-  document.getElementById('mouse').style.color = 'black';
+  document.getElementById('mouse').style.color = 'blue';
 }
 
 function loop() {

@@ -1,10 +1,13 @@
-@font-face {
+@@font-face {
   font-family: 'Special Elite';
   font-weight: 400;
   font-display: fallback;
-  src: local('SpecialElite-Regular'),
+  src: url('fonts/SpecialElite-Regular.woff') format('woff');
+  src: url('fonts/SpecialElite-Regular.woff2') format('woff2');
+
+  /* src: local('SpecialElite-Regular'),
     url('/fonts/SpecialElite-Regular.woff2') format('woff2'),
-    url('/fonts/SpecialElite-Regular.woff') format('woff');
+    url('/fonts/SpecialElite-Regular.woff') format('woff'); */
 }
 :root {
   --ff: 'Special Elite', cursive;
