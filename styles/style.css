@@ -1,22 +1,29 @@
-@@font-face {
+@font-face {
   font-family: 'Special Elite';
   font-weight: 400;
   font-display: fallback;
-  src: url('./fonts/SpecialElite-Regular.woff') format('woff');
   src: url('./fonts/SpecialElite-Regular.woff2') format('woff2');
+  src: url('./fonts/SpecialElite-Regular.woff') format('woff');
 }
 
 :root {
-  --ff: 'Special Elite', cursive;
+  --font-family: 'Special Elite', cursive;
 }
 
 body {
   display: flex;
+  font-family: 'Special Elite', cursive;
+  font: Special Elite;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin: 0;
 }
+
+h1 {
+  color: black;
+}
+
 div {
   text-align: center;
   margin-bottom: 20px;

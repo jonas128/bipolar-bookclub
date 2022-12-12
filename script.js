@@ -81,7 +81,7 @@ function mouseOver() {
 }
 
 function mouseOut() {
-  document.getElementById('mouse').style.color = 'blue';
+  document.getElementById('mouse').style.color = 'black';
 }
 
 function loop() {
