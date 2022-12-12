@@ -22,5 +22,5 @@ A book project built with JavaScript: enjoy at https://bipolar-bookclub.netlify.
 
 Tested by the following people:
 
-1. Jane Doe
-2. John Doe
+1. Styrbjörn Nordberg
+2. Lucas Källberg
