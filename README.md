@@ -12,6 +12,8 @@ A book project built with JavaScript: enjoy at https://bipolar-bookclub.netlify.
 
 # Code Review
 
+Code review written by [Johanna Pihl](https://github.com/Emma-Jonna).
+
 1. `index.html:10-15` - Hade kunnat bli tydligare om du använt taggarna header, main och footer för att dela upp koden i tydliga delar.
 2. `script.js:79-87` - Kom ihåg att det finns flera sätt att skriva en function, t.ex en arrow function.
 3. `script.js:34-66` - Hade kanske varit bra med lite kommentarer som förklarar lite kort vad funktionerna gör.
