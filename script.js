@@ -15,8 +15,8 @@ const books = [
 
 // COLOR DATA
 
-const colors = ['blue', 'pink', 'red', 'yellow', 'green', 'grey'];
-document.body.style.backgroundColor = 'blue';
+const colors = ['yellow', 'pink', 'red', 'blue', 'green', 'grey'];
+document.body.style.backgroundColor = 'yellow';
 const button = document.querySelector('button');
 
 // RESET
